@@ -1,0 +1,96 @@
+body {
+  background-color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  margin: 0;
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  border-bottom: solid 1px seashell;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background-color: black;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+  opacity: 0.9;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 60px;
+}
+
+a:visited {
+  color: seashell;
+}
+
+/* Header */
+
+.background-and-headline{
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+
+.background-image {
+  display: block;
+  width: 90%;
+  margin: 0px auto;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+/* Heading Tea Sorts */
+
+.tea-sorts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tea-sorts h4 {
+  margin-top: 0;
+}
+
+/* Container Tea Sorts */
+
+.container {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.image-container {
+  margin: 10px;
+}
+
+.image {
+  width: 300px;
+  height: 200px;
+}
