@@ -69,6 +69,7 @@ a:visited {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-top: 40px;
 }
 
 .tea-sorts h4 {
@@ -83,14 +84,30 @@ a:visited {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
 }
 
 .image-container {
   margin: 10px;
+  text-align: center;
 }
 
 .image {
   width: 300px;
   height: 200px;
+}
+
+.image-container h4 {
+  margin: 10px 10px 10px 10px;
+}
+
+/* Locations */
+
+.image-container-location {
+  display: block;
+  height: 500px;
+  width: 90%;
+  margin: 0px auto;
+  background-image: url(/images/img-locations-background.jpeg);
+  justify-content: center;
 }
