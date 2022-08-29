@@ -103,11 +103,74 @@ a:visited {
 
 /* Locations */
 
+.location-container {
+  text-align: center;
+  justify-content: center;
+}
+
+.boxes-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .image-container-location {
-  display: block;
+  z-index: 1;
+  background-image: url(/images/img-locations-background.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 500px;
   width: 90%;
   margin: 0px auto;
-  background-image: url(/images/img-locations-background.jpeg);
-  justify-content: center;
+  position: relative;
+}
+
+.background-location-headline {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.boxes {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 18%;
+  z-index: 4;
+  margin: 25px 20px 30px 20px;
+}
+
+.location-box {
+  background-color: black;
+  width: 300px;
+  height: 260px;
+  margin: 20px;
+}
+
+.location-box h4 {
+  font-weight: 200;
+}
+
+/* Footer */
+
+.adress-container {
+  padding: 20px;
+  height: 180px;
+  text-align: center;
+  margin: 0;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
 }
